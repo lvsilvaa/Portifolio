@@ -3,14 +3,18 @@ import { Card } from "@/components/ui/card"
 
 const experiences = [
   {
-    company: "Locaweb",
-    role: "Analista de Suporte de Sistemas",
+    company: "ASR Brasil",
+    role: "Desenvolvedor Front-end",
     location: "Rio de Janeiro, RJ",
     period: "04/2025 - Atual",
     description: [
-      "Suporte técnico em instalação, configuração e manutenção de software e hardware",
-      "Realização de testes funcionais e acompanhamento de desempenho de sistemas",
-      "Garantia de alta disponibilidade e performance dos sistemas",
+      "Desenvolvimento de interfaces responsivas utilizando React.js, Next.js e Angular.",
+      "Implementação de consumo de APIs REST para exibição dinâmica de dados.",
+      "Criação de componentes reutilizáveis, garantindo padronização e escalabilidade.",
+      "Otimização de performance e SEO, reduzindo tempo de carregamento das aplicações.",
+      "Aplicação de boas práticas de acessibilidade (WCAG) e UI/UX.",
+      "Atuação em times ágeis com Scrum/Kanban, versionamento com Git e code review.",
+
     ],
   },
   {
@@ -22,17 +26,9 @@ const experiences = [
       "Manutenção e atualização de sistemas e aplicações críticas",
       "Testes e validação de soluções desenvolvidas, garantindo alta performance",
       "Revisões de código, assegurando qualidade e consistência",
-    ],
-  },
-  {
-    company: "Riorube",
-    role: "Desenvolvedor Full Stack",
-    location: "Botafogo, RJ",
-    period: "10/2015 - 01/2017",
-    description: [
-      "Criação de interfaces responsivas e amigáveis para usuários",
-      "Integração de sistemas com bancos de dados e APIs externas",
-      "Garantia da performance e segurança das aplicações desenvolvidas",
+      "Atuação em suporte técnico, redes e servidores.",
+      "Desenvolvimento de scripts em Python para automação de processos administrativos.",
+      "Suporte à infraestrutura de TI, garantindo segurança e disponibilidade dos sistemas.",
     ],
   },
   {
@@ -44,17 +40,6 @@ const experiences = [
       "Desenvolvimento back-end em .NET para aplicações web",
       "Implementação de sistemas de informação empresariais",
       "Treinamento de clientes para uso eficiente das soluções",
-    ],
-  },
-  {
-    company: "MFTEC",
-    role: "Desenvolvedor Full Stack",
-    location: "Japeri, RJ",
-    period: "11/2011 - 11/2012",
-    description: [
-      "Desenvolvimento e manutenção de softwares corporativos",
-      "Correção de falhas e garantia da estabilidade dos sistemas",
-      "Implementação de novas funcionalidades baseadas em requisitos de negócio",
     ],
   },
 ]

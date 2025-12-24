@@ -406,6 +406,12 @@
             color: var(--accent-primary);
         }
 
+        .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* mantém proporção e preenche */
+            display: block;
+}
         .project-content {
             padding: 1.5rem;
         }
@@ -625,14 +631,16 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content fade-in-up">
-            <p class="hero-subtitle">Desenvolvedor Full Stack</p>
+            <p class="hero-subtitle">Desenvolvedor Frontend React</p>
             <h1 class="hero-title">Leonardo Silva</h1>
             <p class="hero-description">
-                Desenvolvedor Full Stack com 14 anos de experiência criando soluções escaláveis e eficientes. 
-                Especializado em Python, Java, React, Node.js e análise de dados.
+                Sou Desenvolvedor Frontend com foco em React.js e Next.js, com experiência na construção de interfaces modernas, responsivas e orientadas à experiência do usuário. 
+                Atuo com JavaScript (ES6+), TypeScript, HTML, CSS e Tailwind CSS, aplicando boas práticas de componentização, acessibilidade e performance.
+                Tenho experiência no consumo de APIs REST, versionamento com Git e trabalho em ambientes ágeis. 
+                Busco oportunidades como Desenvolvedor Frontend React, onde possa contribuir com código limpo, escalável e de fácil manutenção.
             </p>
             <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Entre em Contato</a>
+                <a href="#contact" class="btn btn-primary">Contato</a>
                 <a href="#projects" class="btn btn-secondary">Ver Projetos</a>
             </div>
         </div>
@@ -645,13 +653,13 @@
         <div class="about-content">
             <div class="about-text">
                 <p>
-                    Sou um desenvolvedor Full Stack apaixonado por tecnologia com mais de 14 anos de experiência 
+                    Sou um desenvolvedor Frontend apaixonado por tecnologia com mais de 5 anos de experiência 
                     no mercado. Atualmente trabalho na Locaweb como Analista de Suporte de Sistemas, onde aplico 
                     meus conhecimentos em desenvolvimento e infraestrutura.
                 </p>
                 <p>
                     Minha experiência inclui passagens pelo Exército Brasileiro, Riorube, GEOHUB e MFTEC, 
-                    onde desenvolvi soluções robustas utilizando tecnologias como Python, Java, React, Node.js 
+                    onde desenvolvi soluções robustas utilizando tecnologias como React, Node.js, Angular, Python, 
                     e bancos de dados SQL. Sou formado em Sistemas de Informação pela Universidade Estácio de Sá.
                 </p>
                 <p>
@@ -661,11 +669,11 @@
             </div>
             <div class="about-stats">
                 <div class="stat-card">
-                    <div class="stat-number">14+</div>
+                    <div class="stat-number">5+</div>
                     <div class="stat-label">Anos de Experiência</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">50+</div>
+                    <div class="stat-number">30+</div>
                     <div class="stat-label">Projetos Concluídos</div>
                 </div>
                 <div class="stat-card">
@@ -688,16 +696,19 @@
             <div class="experience-item">
                 <div class="experience-header">
                     <div>
-                        <h3 class="experience-title">Analista de Suporte de Sistemas</h3>
-                        <p class="experience-company">Locaweb</p>
+                        <h3 class="experience-title">Desenvolvedor Front-end</h3>
+                        <p class="experience-company">ASR Brasil</p>
                     </div>
                     <span class="experience-date">04/2025 - Atual</span>
                 </div>
                 <div class="experience-description">
                     <ul>
-                        <li>Suporte técnico em instalação, configuração e manutenção de software e hardware</li>
-                        <li>Realização de testes funcionais e acompanhamento de desempenho de sistemas</li>
-                        <li>Garantia de alta disponibilidade e performance das aplicações</li>
+                    <li>Desenvolvimento de interfaces responsivas utilizando React.js, Next.js e Angular.</li>
+                    <li>Implementação de consumo de APIs REST para exibição dinâmica de dados.</li>
+                    <li>Criação de componentes reutilizáveis, garantindo padronização e escalabilidade.</li>
+                    <li>Otimização de performance e SEO, reduzindo tempo de carregamento das aplicações.</li>
+                    <li>Aplicação de boas práticas de acessibilidade (WCAG) e UI/UX.</li>
+                    <li>Atuação em times ágeis com Scrum/Kanban, versionamento com Git e code review.</li>
                     </ul>
                 </div>
             </div>
@@ -708,64 +719,33 @@
                         <h3 class="experience-title">Desenvolvedor Front-end e Técnico de TI</h3>
                         <p class="experience-company">Exército Brasileiro</p>
                     </div>
-                    <span class="experience-date">02/2017 - 03/2025</span>
+                    <span class="experience-date">02/2017 - 02/2025</span>
                 </div>
                 <div class="experience-description">
                     <ul>
-                        <li>Manutenção e atualização de sistemas e aplicações críticas</li>
-                        <li>Testes e validação de soluções desenvolvidas, garantindo alta performance</li>
-                        <li>Revisões de código, assegurando qualidade e consistência</li>
+                    <li>Manutenção e atualização de sistemas e aplicações críticas</li>
+                    <li>Testes e validação de soluções desenvolvidas, garantindo alta performance</li>
+                    <li>Revisões de código, assegurando qualidade e consistência</li>
+                    <li>Atuação em suporte técnico, redes e servidores.</li>
+                    <li>Desenvolvimento de scripts em Python para automação de processos administrativos.</li>
+                    <li>Suporte à infraestrutura de TI, garantindo segurança e disponibilidade dos sistemas.</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">Desenvolvedor Full Stack</h3>
-                        <p class="experience-company">Riorube</p>
-                    </div>
-                    <span class="experience-date">10/2015 - 01/2017</span>
-                </div>
-                <div class="experience-description">
-                    <ul>
-                        <li>Criação de interfaces responsivas e amigáveis para usuários</li>
-                        <li>Integração de sistemas com bancos de dados e APIs externas</li>
-                        <li>Garantia da performance e segurança das aplicações desenvolvidas</li>
-                    </ul>
-                </div>
-            </div>
 
             <div class="experience-item">
                 <div class="experience-header">
                     <div>
-                        <h3 class="experience-title">Programador de Sistemas</h3>
+                        <h3 class="experience-title">Programador Júnior</h3>
                         <p class="experience-company">GEOHUB</p>
                     </div>
-                    <span class="experience-date">03/2013 - 09/2015</span>
+                    <span class="experience-date">03/2013 - 03/2014</span>
                 </div>
                 <div class="experience-description">
                     <ul>
-                        <li>Desenvolvimento back-end em .NET para aplicações web</li>
-                        <li>Implementação de sistemas de informação empresariais</li>
-                        <li>Treinamento de clientes para uso eficiente das soluções</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">Desenvolvedor Full Stack</h3>
-                        <p class="experience-company">MFTEC</p>
-                    </div>
-                    <span class="experience-date">11/2011 - 11/2012</span>
-                </div>
-                <div class="experience-description">
-                    <ul>
-                        <li>Desenvolvimento e manutenção de softwares corporativos</li>
-                        <li>Correção de falhas e garantia da estabilidade dos sistemas</li>
-                        <li>Implementação de novas funcionalidades conforme demanda</li>
+                        <li>Desenvolvimento e manutenção de sistemas internos utilizando .NET, HTML, CSS, JavaScript e SQL.</li>
+                        <li>Atualização de layouts e melhorias de performance em aplicações corporativas.</li>
                     </ul>
                 </div>
             </div>
@@ -780,13 +760,17 @@
             <div class="skill-category">
                 <h3 class="skill-category-title">Linguagens</h3>
                 <div class="skill-tags">
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">Java</span>
-                    <span class="skill-tag">JavaScript (ES6+)</span>
                     <span class="skill-tag">TypeScript</span>
-                    <span class="skill-tag">SQL</span>
                     <span class="skill-tag">HTML5</span>
                     <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">JavaScript (ES6+)</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">SQL</span>
+                    
+                    
                 </div>
             </div>
 
@@ -796,6 +780,7 @@
                     <span class="skill-tag">React</span>
                     <span class="skill-tag">Next.js</span>
                     <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Angular</span>
                     <span class="skill-tag">Vue.js</span>
                     <span class="skill-tag">jQuery</span>
                     <span class="skill-tag">Bootstrap</span>
@@ -816,7 +801,6 @@
                 <h3 class="skill-category-title">Ferramentas & DevOps</h3>
                 <div class="skill-tags">
                     <span class="skill-tag">Git/GitHub</span>
-                    <span class="skill-tag">Azure DevOps</span>
                     <span class="skill-tag">AWS</span>
                     <span class="skill-tag">Power BI</span>
                     <span class="skill-tag">Figma</span>
@@ -829,7 +813,6 @@
                 <div class="skill-tags">
                     <span class="skill-tag">Scrum</span>
                     <span class="skill-tag">Kanban</span>
-                    <span class="skill-tag">Agile</span>
                     <span class="skill-tag">CI/CD</span>
                 </div>
             </div>
@@ -842,18 +825,63 @@
         <p class="section-subtitle">Alguns dos meus trabalhos mais relevantes</p>
         <div class="projects-grid">
             <div class="project-card">
-                <div class="project-image">🚀</div>
+            <div class="project-image"><img src="./public/Captura de tela 2025-11-09 122958.png"></div>
                 <div class="project-content">
-                    <h3 class="project-title">Sistema de Gestão Empresarial</h3>
+                    <h3 class="project-title">Formulario de cadastro e consulta</h3>
                     <p class="project-description">
-                        Plataforma completa para gestão de processos empresariais, incluindo controle de estoque, 
-                        vendas e relatórios analíticos.
+                        Aplicação web desenvolvida em Angular com Angular Material, permitindo o cadastro, 
+                        listagem e consulta de usuários. O projeto utiliza componentes visuais modernos e 
+                        responsivos do Angular Material, garantindo uma interface limpa e intuitiva. 
+                        Inclui validação de formulários, feedback visual para o usuário e organização modular do código, 
+                        seguindo boas práticas de desenvolvimento front-end. 
                     </p>
                     <div class="project-tech">
-                        <span class="tech-badge">React</span>
-                        <span class="tech-badge">Node.js</span>
-                        <span class="tech-badge">MySQL</span>
-                        <span class="tech-badge">Power BI</span>
+                        <span class="tech-badge">Angular</span>
+                        <span class="tech-badge">Tailwind CSS</span>
+                        <span class="tech-badge">Typescript</span>
+                        <span class="tech-badge">Node Js</span>
+                        <span class="tech-badge">API Rest</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://formulario-de-cadastro-kappa-drab.vercel.app/" target="_blank" class="project-link">Ver Projeto →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image"><img src="./public/listacompras.png"></div>
+                <div class="project-content">
+                    <h3 class="project-title">Lista de Tarefas</h3>
+                    <p class="project-description">
+                         Aplicação completa de gerenciamento de compras, prioridades, persistência local e funcionalidades de export/import. 
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">LocalStorage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://to-do-list-eight-sooty-33.vercel.app/" target="_blank" class="project-link">Ver Projeto →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image"><img src="./public/Captura de tela 2025-09-01 144001.png"></div>
+                <div class="project-content">
+                    <h3 class="project-title">Página de Login Moderna</h3>
+                    <p class="project-description">
+                        Interface de login elegante com efeito glassmorphism, 
+                        fundo gradiente dinâmico e formulário responsivo. 
+                        Design focado em UX com validação em tempo real. 
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Glassmorphism</span>
+                    
                     </div>
                     <div class="project-links">
                         <a href="#" class="project-link">Ver Projeto →</a>
@@ -862,98 +890,66 @@
             </div>
 
             <div class="project-card">
-                <div class="project-image">📊</div>
-                <div class="project-content">
-                    <h3 class="project-title">Dashboard de Análise de Dados</h3>
-                    <p class="project-description">
-                        Dashboard interativo para visualização e análise de dados em tempo real, 
-                        com integração a múltiplas fontes de dados.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">React</span>
-                        <span class="tech-badge">PostgreSQL</span>
-                        <span class="tech-badge">AWS</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Ver Projeto →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">🔐</div>
-                <div class="project-content">
-                    <h3 class="project-title">Sistema de Autenticação</h3>
-                    <p class="project-description">
-                        Sistema robusto de autenticação e autorização com múltiplos níveis de acesso 
-                        e integração com serviços externos.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-badge">Java</span>
-                        <span class="tech-badge">Next.js</span>
-                        <span class="tech-badge">MySQL</span>
-                        <span class="tech-badge">Azure</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Ver Projeto →</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">🌐</div>
+                <div class="project-image"><img src="./public/enderecos.png"></div>
                 <div class="project-content">
                     <h3 class="project-title">API RESTful Escalável</h3>
                     <p class="project-description">
-                        API RESTful de alta performance para integração entre sistemas, 
-                        com documentação completa e testes automatizados.
+                        O Buscador de Endereços é uma aplicação simples e funcional que permite ao usuário 
+                        pesquisar um endereço digitando apenas o CEP. A aplicação consulta uma API backend e 
+                        retorna os dados completos do endereço, como: Rua, Bairro, Cidade, Estado O projeto 
+                        foi dividido em frontend e backend, seguindo boas práticas de desenvolvimento.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-badge">Node.js</span>
-                        <span class="tech-badge">PostgreSQL</span>
-                        <span class="tech-badge">Docker</span>
-                        <span class="tech-badge">AWS</span>
+                        <span class="tech-badge">Angular</span>
+                        <span class="tech-badge">Tailwind css</span>
+                        <span class="tech-badge">Typescript</span>
+                        <span class="tech-badge">Html5</span>
+                        <span class="tech-badge">LocalStorage</span>
+                        <span class="tech-badge">API Rest</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link">Ver Projeto →</a>
+                        <a href="https://buscador-enderecos.vercel.app/" target="_blank" class="project-link">Ver Projeto →</a>
                     </div>
                 </div>
             </div>
 
             <div class="project-card">
-                <div class="project-image">📱</div>
+                <div class="project-image"><img src="./public/fanta page.gif"></div>
                 <div class="project-content">
                     <h3 class="project-title">Aplicação Web Responsiva</h3>
                     <p class="project-description">
                         Aplicação web moderna e responsiva com foco em experiência do usuário 
                         e performance otimizada.
+                        Landing page interativa com animações GSAP avançadas, ScrollTrigger e elementos flutuantes sincronizados.
+                         Design vibrante com gradientes laranja e experiência imersiva de scroll. 
                     </p>
                     <div class="project-tech">
-                        <span class="tech-badge">React</span>
-                        <span class="tech-badge">TypeScript</span>
-                        <span class="tech-badge">Tailwind CSS</span>
-                        <span class="tech-badge">Vercel</span>
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">GSAP</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link">Ver Projeto →</a>
+                        <a href="https://page-fanta.vercel.app/" target="_blank" class="project-link">Ver Projeto →</a>
                     </div>
                 </div>
             </div>
 
             <div class="project-card">
-                <div class="project-image">⚙️</div>
+                <div class="project-image"><img src="./public/pomodoro.png"></div>
                 <div class="project-content">
-                    <h3 class="project-title">Automação de Processos</h3>
+                    <h3 class="project-title">Chronos - Timer Pomodoro</h3>
                     <p class="project-description">
-                        Scripts e ferramentas de automação para otimização de processos repetitivos 
-                        e aumento de produtividade.
+                        Aplicativo de produtividade baseado na técnica Pomodoro com design minimalista, 
+                        controles intuitivos e sistema de tarefas integrado. 
                     </p>
                     <div class="project-tech">
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">Selenium</span>
-                        <span class="tech-badge">Pandas</span>
-                        <span class="tech-badge">Excel</span>
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">TypeScript</span>
+                        <span class="tech-badge">Timer API</span>
+                         <span class="tech-badge">Localstorage</span>
+                          <span class="tech-badge">HTML5</span>
                     </div>
                     <div class="project-links">
                         <a href="#" class="project-link">Ver Projeto →</a>
@@ -969,7 +965,7 @@
         <p class="section-subtitle">Estou disponível para novos projetos e oportunidades</p>
         <div class="contact-content">
             <p class="contact-text">
-                Estou sempre aberto a discutir novos projetos, ideias criativas ou oportunidades 
+                Estou sempre disposto a discutir novos projetos, ideias criativas ou oportunidades 
                 para fazer parte da sua equipe. Sinta-se à vontade para entrar em contato!
             </p>
             <div class="contact-links">
@@ -1004,7 +1000,7 @@
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Leonardo Silva. Todos os direitos reservados.</p>
-        <p style="margin-top: 0.5rem; font-size: 0.875rem;">Desenvolvido com dedicação e paixão por tecnologia</p>
+        <p style="margin-top: 0.5rem; font-size: 0.875rem;">Desenvolvido com dedicação e tecnologia</p>
     </footer>
 
     <script>
